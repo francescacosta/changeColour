@@ -1,0 +1,31 @@
+body {
+  font-family: 'Black Han Sans', sans-serif;
+  background: black;
+  margin: 0;
+}
+
+.button {
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  background-color: white;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.number {
+  position: absolute;
+  font-size: 60px;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+  margin: 0;
+}
